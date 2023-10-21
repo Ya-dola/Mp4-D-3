@@ -186,7 +186,7 @@ class MP4toMP3Converter(QWidget):
 
         # Window Settings
         self.setLayout(layout)
-        self.setWindowTitle('Yadola MP4 to MP3 Converter')
+        self.setWindowTitle('Mp4-D-3')
         self.setFixedWidth(760)
         self.setFixedHeight(400)
         # self.setWindowFlags(Qt.WindowStaysOnTopHint)  # Always on top
