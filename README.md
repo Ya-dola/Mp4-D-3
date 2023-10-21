@@ -6,11 +6,15 @@
 
 #### With UPX Compression
 
-`pyinstaller.exe -F -i icon.ico --noconsole --hide-console hide-late --disable-windowed-traceback --upx-dir "UPX DIRECTORY HERE" --add-data=icon.ico:. Mp4-D-3.py`
+```bash
+pyinstaller.exe -F -i icon.ico --noconsole --hide-console hide-late --disable-windowed-traceback --upx-dir "UPX DIRECTORY HERE" --add-data=icon.ico:. Mp4-D-3.py`
+```
 
 #### Without UPX Compression
 
-`pyinstaller.exe -F -i icon.ico --noconsole --hide-console hide-late --disable-windowed-traceback --add-data=icon.ico:. Mp4-D-3.py`
+```bash
+pyinstaller.exe -F -i icon.ico --noconsole --hide-console hide-late --disable-windowed-traceback --add-data=icon.ico:. Mp4-D-3.py
+```
 
 ## Helpful Links
 
