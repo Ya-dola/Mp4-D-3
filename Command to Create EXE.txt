@@ -1,0 +1,12 @@
+pyinstaller.exe -F -i icon.ico --noconsole --add-data=icon.ico:. Yadola\ MP4\ to\ MP3\ Converter.py
+pyinstaller.exe -F -i icon.ico --noconsole --hide-console hide-late --disable-windowed-traceback --add-data=icon.ico:. Yadola\ MP4\ to\ MP3\ Converter.py
+pyinstaller.exe -F -i icon.ico --noconsole --hide-console hide-late --disable-windowed-traceback --add-data=icon.ico:. Yadola\ MP4\ to\ MP3\ Converter.py
+
+# FFMPEG Console Window FIX
+https://github.com/kkroening/ffmpeg-python/pull/790
+
+# Icon Provided by
+https://www.deviantart.com/vantler/art/Lumicons-662277185
+
+# UPX Compressed File
+https://pyinstaller.org/en/stable/usage.html#options
